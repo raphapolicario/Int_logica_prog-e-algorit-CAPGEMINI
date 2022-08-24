@@ -1,2 +1,2 @@
-# Int_logica_prog-e-algorit-CAPGEMINI
+# Start By Capgemini
 Exercícios do curso de Introdução de Lógica de Programação e Algoritmo do programa Start by CAPGEMINI
