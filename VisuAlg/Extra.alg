@@ -11,14 +11,26 @@ leia(peso)
 
 imc <- peso / altura ^ 2
 
-se imc < 19 entao
+se imc < 18.5 entao
    Escreval("Abaixo do peso")
 senao
-se imc < 24 entao
+se imc < 25 entao
    escreval("Peso ideal")
 senao
-   escreval("Acima do peso")
+se imc < 30 entao
+   escreval("Sobrepeso")
+senao
+se imc < 35 entao
+   escreval("Obesidade I")
+senao
+se imc < 40 entao
+   escreval("Obesidade II")
+senao
+     escreval ("Obesidade III")
    
+fimse
+fimse
+fimse
 fimse
 fimse
 
