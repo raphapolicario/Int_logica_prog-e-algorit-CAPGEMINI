@@ -16,7 +16,7 @@ var
    i : inteiro
    
 inicio
-      Escreval("Informe o nome do cliente a cadastrar")
+
       para i de 1 ate 5 faca
            se clientes[i] = "" entao
               Escreval("Informe o nome do cliente")
@@ -55,7 +55,7 @@ var
 inicio
       Escreval("Informe o índice a excluir")
       leia(indiceExclusao)
-      se (indiceExclusao > 5) ou (indiceExlusao < 1) entao  //apresentando problemas
+      se (indiceExclusao > 5) ou (indiceExclusao < 1) entao
          Escreval ("Índice inválido")
       senao
          clientes[indiceExclusao] <- ""
